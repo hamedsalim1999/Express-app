@@ -1,8 +1,4 @@
-const jack = 'jack'
-const tom = 'tom' 
-const SayHi = (name) => {
-    console.log(`Hi ${name}`)
-}
-
-SayHi(jack)
-SayHi(tom)
+const func = require('./func')
+const date = require('./date')
+func.SayHi(date.jack)
+func.SayHi(date.tom)
